@@ -60,6 +60,7 @@ export default {
         [0, 4, 8],
         [2, 4, 6]
       ]
+      // In a production project, I'd find a way to do this without a for loop
       for (let i in wins) {
         if (this.board[wins[i][0]] !== "" &&
           this.board[wins[i][0]] === this.board[wins[i][1]] &&

@@ -1,5 +1,7 @@
 # ticktacktoe
 
+A super simple experimental Tick Tack Toe project made with VueJS!
+
 ## Project setup
 ```
 npm install
